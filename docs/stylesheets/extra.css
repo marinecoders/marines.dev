@@ -1,0 +1,41 @@
+[data-md-color-scheme="marinecoders-light"] {
+    --md-primary-fg-color:        #1a1d24;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #cf2929;
+    --md-typeset-a-color:         #cf2929;
+    --md-accent-fg-color:         #cf2929;
+
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210; 
+    --md-default-bg-color: #252a34;
+    --md-primary-fg-color:        #1a1d24;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #cf2929;
+    --md-typeset-a-color:         #cf2929;
+    --md-accent-fg-color:         #cf2929;
+    --md-accent-fg-color--transparent:   hsla(#cf2929, 0.1);
+
+}
+.md-button {
+    color:                        #cf2929 !important;
+}
+
+.md-button:is(:focus, :hover) {
+    background-color:            #cf2929;
+    border-color:                #cf2929;
+    color:                       #ffffff !important;
+}
+
+.md-button--primary {
+    background-color:            #cf2929 !important;
+    border-color:                #cf2929 !important;
+    color:                       #ffffff !important;
+}
+
+.md-button--primary:is(:focus, :hover) {
+    background-color:            #e44040 !important;
+    border-color:                #e44040 !important;
+    color:                       #ffffff !important;
+}
