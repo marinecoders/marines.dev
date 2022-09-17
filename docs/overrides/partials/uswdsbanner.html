@@ -1,0 +1,97 @@
+<div class="banner__outer">
+    <div class="banner__inner" style="width: 80%">
+        <header class="banner-header">
+            <img class="banner-icon" src="/assets/us_flag_small.png" alt="U.S. flag">
+            <div>Unofficial Public Marine Coders Website</div>
+            <a href="#" onclick="toggleContent()" class="classification-header__link">Here's how you know...</a>
+        </header>
+        <div class="banner-content" style="display: none;">
+            <div class="banner-content-click">
+                <div>
+                    <img class="banner-content__logo" src="/assets/icon-dot-gov.svg" role="img" alt="" align="left"
+                        aria-hidden="true">
+                    <div class="banner-content__text">
+                        <p>
+                            <strong>Official websites use .mil</strong><br>
+                            This is not an official site. A .mil website belongs to an official government organization in the United States. 
+                        </p>
+                    </div>
+                </div>
+                <div style="align-items: center;">
+                    <img class="banner-content__logo" src="/assets/icon-https.svg" role="img" alt="" align="left"
+                        aria-hidden="true">
+                    <div class="banner-content__text">
+                        <p>
+                            <strong>Secure .dev websites use HTTPS</strong><br>
+                            A lock (&#128274;) or https:// means you've safely connected to the .dev website. Share sensitive information only on official, secure websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function toggleContent() {
+        var x = document.getElementsByClassName("banner-content")[0];
+        (x.style.display === "none") ? x.style.display = "grid" : x.style.display = "none";
+    }
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    @media only screen and (max-width: 600px) {
+        .banner-content-click {
+          display: grid;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .banner-content-click {
+          display: flex;
+        }
+    }
+    .banner__inner {
+        font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+        font-size: .75rem !important;
+        line-height: 1.5;
+        margin: 0px;
+    }
+    .banner__outer {
+        justify-content: center;
+        display: flex;
+        background-color: #1a1d24;
+    }
+    .banner-header {
+        padding: 0px 16px;
+        display: flex;
+        color: white;
+    }
+    .banner-header a {
+        color: white;
+    }
+    .banner-header img {
+        object-fit: contain;
+    }
+    .banner-header>* {
+        padding: 5px;
+    }
+    .banner-content {
+        padding: 1em;
+    }
+    .banner-content img {
+        width: 64px;
+        -webkit-transition: none;
+        transition: none;
+    }
+    .banner-content__text {
+        font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        color: white;
+        font-size: .8rem !important;
+        padding-top: 1rem
+    }
+    .banner-content__logo {
+        margin: 1rem;
+    }
+</style>

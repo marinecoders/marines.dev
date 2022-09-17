@@ -1,6 +1,12 @@
-site_name: Marine Coder Docs
+site_name: Marine Coders
 
+repo_url: https://github.com/marinecoders/docs
+repo_name: marinecoders/docs
+edit_uri: ""
 theme:
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: docs/overrides
   name: material
   static_templates:
     - 404.html
@@ -21,6 +27,7 @@ theme:
     - search.share
     - search.suggest
     
+    
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: marinecoders-light
@@ -33,8 +40,8 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
-  favicon: favicon.png
-  logo: logo.png
+  favicon: /assets/favicon.png
+  logo: /assets/logo.png
 
 extra_css:
   - stylesheets/extra.css
@@ -62,6 +69,28 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
+plugins:
+  - blog:
+      draft_if_future_date: true
+      authors_file: .authors.yml
+  - meta
+  - search
+  - tags:
+      tags_file: tags.md
+      
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/marinecoders
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/marine-coders
+      
+copyright: Copyright &copy; 2022 Marine Coders
+
+
 nav:
-  - Home: 'https://marines.dev'
+  - Marine Coders: 'https://marines.dev'
   - Docs: ''
+  - Blog:
+    - blog/index.md 
