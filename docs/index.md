@@ -4,32 +4,32 @@ hide:
   - toc
 ---
 
-![Marine Coders logo](/assets/marinecoders.png){: .align-center}  
+<p style="text-align: center;"><img style="width: 75%" alt="Marine Coders logo" class="align-center" src="/assets/marinecoders.png">  </p>
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Projects__
+-   :material-tools:{ .lg .middle } __Projects__
 
     ---
 
     Learn more about our projects.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Learn More](/projects)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Chat with Coders__
+-   :material-account-group-outline:{ .lg .middle } __Join Marine Coders Chat__
 
     ---
 
     Let’s build together.
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Chat](/chat)
 
--   :material-format-font:{ .lg .middle } __Leaern to Code__
+-   :material-school:{ .lg .middle } __Learn to Code__
 
     ---
 
     Learn more about coding, DevSecOps, and enjoy our list of free courses
 
-    [:octicons-arrow-right-24: Customization](#)
+    [:octicons-arrow-right-24: Start Learning](/learn)
 
 </div>

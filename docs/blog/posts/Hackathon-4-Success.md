@@ -3,6 +3,7 @@ date: 2020-12-16
 tags:
  - Hackathon
 ---
+# Hackathon Success
 Our latest Hackathon was as a huge success!  We added many new features to the Marine Coders website! New features include 1) a subscription function, 2) a project proposal function and 3) updates to our Event page layout!
 
 After the hackathon, we hosted our first guest speaker, Miles Tiglao (USMC, ret.)!  Checkout the recording of his talk at the links below:
