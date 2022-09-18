@@ -1,42 +1,98 @@
 [data-md-color-scheme="marinecoders-light"] {
-    --md-primary-fg-color:        #1a1d24;
+    --md-primary-fg-color: #1a1d24;
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #cf2929;
-    --md-typeset-a-color:         #cf2929;
-    --md-accent-fg-color:         #cf2929;
+    --md-primary-fg-color--dark: #cf2929;
+    --md-typeset-a-color: #cf2929;
+    --md-accent-fg-color: #cf2929;
     --md-default-bg-color: #dee4e7;
 
 }
 
 [data-md-color-scheme="slate"] {
-    --md-hue: 210; 
+    --md-hue: 210;
     --md-default-bg-color: #252a34;
-    --md-primary-fg-color:        #1a1d24;
+    --md-primary-fg-color: #1a1d24;
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #cf2929;
-    --md-typeset-a-color:         #cf2929;
-    --md-accent-fg-color:         #cf2929;
-    --md-accent-fg-color--transparent:   hsla(#cf2929, 0.1);
+    --md-primary-fg-color--dark: #cf2929;
+    --md-typeset-a-color: #cf2929;
+    --md-accent-fg-color: #cf2929;
+    --md-accent-fg-color--transparent: hsla(#cf2929, 0.1);
 
 }
+
 .md-button {
-    color:                        #cf2929 !important;
+    color: #cf2929 !important;
 }
 
 .md-button:is(:focus, :hover) {
-    background-color:            #cf2929;
-    border-color:                #cf2929;
-    color:                       #ffffff !important;
+    background-color: #cf2929;
+    border-color: #cf2929;
+    color: #ffffff !important;
 }
 
 .md-button--primary {
-    background-color:            #cf2929 !important;
-    border-color:                #cf2929 !important;
-    color:                       #ffffff !important;
+    background-color: #cf2929 !important;
+    border-color: #cf2929 !important;
+    color: #ffffff !important;
 }
 
 .md-button--primary:is(:focus, :hover) {
-    background-color:            #e44040 !important;
-    border-color:                #e44040 !important;
-    color:                       #ffffff !important;
+    background-color: #e44040 !important;
+    border-color: #e44040 !important;
+    color: #ffffff !important;
+}
+
+.progress-label {
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 ! important;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 1.2rem;
+    float: left;
+    background: repeating-linear-gradient(45deg,
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2) 10px,
+            rgba(255, 255, 255, 0.3) 10px,
+            rgba(255, 255, 255, 0.3) 20px) #2979ff;
+    border-radius: 2px;
+}
+
+.progress {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 1.2rem;
+
+    position: relative;
+}
+
+.progress-100plus .progress-bar {
+    background-color: #00c853;
+}
+
+.progress-80plus .progress-bar {
+    background-color: #64dd17;
+}
+
+.progress-60plus .progress-bar {
+    background-color: #fbc02d;
+}
+
+.progress-40plus .progress-bar {
+    background-color: #ff9100;
+}
+
+.progress-20plus .progress-bar {
+    background-color: #ff5252;
+}
+
+.progress-0plus .progress-bar {
+    background-color: #ff1744;
 }

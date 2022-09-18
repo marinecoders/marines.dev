@@ -5,7 +5,10 @@ hide:
 description: Any Marine a Coder. A devoted uniformed community of practice.
 ---
 
-<p style="text-align: center;"><img style="width: 75%" alt="Marine Coders logo" class="align-center" src="/assets/marinecoders.png">  </p>
+![Image title](/assets/marinecoders_invert.png#only-light)
+
+![Image title](/assets/marinecoders.png#only-dark)
+
 
 <div class="grid cards" markdown>
 

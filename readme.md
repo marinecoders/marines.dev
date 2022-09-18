@@ -1,11 +1,12 @@
 # Marine Coders Documentation Template
 
-Documenation theme / boilerplate is created using https://github.com/mkdocs/mkdocs and https://github.com/squidfunk/mkdocs-material with a series of extensions. 
+Documenation theme / boilerplate is created using [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs) and [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material) with a series of extensions.
 
 ## Build Requirments
+
 Prior to installation and repository setup ensure you have a version of Python 3.x installed and is correctly configured to the path.
 
-```
+```shell
 > git clone github.com/marinecoders/docs.git
 > cd docs
 > pip install -r requirments.txt
@@ -18,4 +19,5 @@ Prior to installation and repository setup ensure you have a version of Python 3
 ```
 
 ## Follow On Development Guides
+
 To continue to built onto this boiler plate please follow MkDocs or MkDocs-Material Guides listed.

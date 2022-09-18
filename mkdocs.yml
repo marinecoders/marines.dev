@@ -55,6 +55,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.progressbar
   - tables
   - attr_list
   - pymdownx.tabbed:
@@ -68,6 +70,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - social:
@@ -103,4 +107,3 @@ nav:
   - Blog:
     - blog/index.md 
   - Demo: /demo
-  

@@ -2,21 +2,20 @@
 comments: true
 ---
 
-# Chat with Us!
+# Chat with Us
 
-### We offer two different chat locations to talk code.
+## We offer two different chat locations to talk code
 
 If you just want to chat and learn about Marine Coders and software, we recommend you join our public chat, powered by our partners at Operation Code.  
 
 If you are an active duty Marine and need to discuss controlled but unclassified projects, come join our private chat, powered by our partners at platform One.  
 
-<br>
+</br>
 
 | Chat         | Description |  Link     | Instructions | Chat Provider |
 | -- | -- | -- | -- | -- |
-| Open Chat     |    For all to join    | [Join Now](https://operationcode.org/join){: .btn .btn--info .btn--large}   | Join Operation Code, slack invite will be sent to e-mail. <br> In Slack, join Channel "#Marine-Coders" | <img src="../assets/images/small-blue-logo.png" alt="OperationCode" height="40"/>  |
-| Active Duty Chat (IL2)   | For active duty chat  | [1. Register account.](https://login.dsop.io){: .btn .btn--info .btn--large} [2. Then join group here.](https://chat.il2.dso.mil/signup_user_complete/?id=p65oraj9b3ysjgbxac7o7bn6fr){: .btn .btn--info .btn--large} | Common Access Card or Government E-mail required. Click button 1, register account. Click button 2 after verifying email. |<img src="../assets/images/p1-logo.png" alt="OperationCode" height="40"/> 
-
+| Open Chat     |    For all to join    | [Join Now](https://operationcode.org/join){: .btn .btn--info .btn--large}   | Join Operation Code, slack invite will be sent to e-mail. </br> In Slack, join Channel "#Marine-Coders" | </img src="../assets/images/small-blue-logo.png" alt="OperationCode" height="40"/>  |
+| Active Duty Chat (IL2)   | For active duty chat  | [1. Register account.](https://login.dsop.io){: .btn .btn--info .btn--large} [2. Then join group here.](https://chat.il2.dso.mil/signup_user_complete/?id=p65oraj9b3ysjgbxac7o7bn6fr){: .btn .btn--info .btn--large} | Common Access Card or Government E-mail required. Click button 1, register account. Click button 2 after verifying email. |</img src="../assets/images/p1-logo.png" alt="OperationCode" height="40"/>
 
 <!-- <style>
 .button {
@@ -32,8 +31,6 @@ If you are an active duty Marine and need to discuss controlled but unclassified
   cursor: pointer;
 }
 </style> -->
-
-
 
 <!-- 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
