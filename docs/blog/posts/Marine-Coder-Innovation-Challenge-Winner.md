@@ -4,10 +4,10 @@ categories:
  - Announcements
  - News
 ---
-
+# Marine Coder Innovation Challenge Winner
 ## We are excited to announce that I MEF and their GCCS Reconciliation Tool (GROOT) is the winner of the 2021 Marine Coder Innovation Challenge!  
 The competition was tough and picking a winner was a very difficult for the voting panel. II MEF's Command Data Visualization Tool and III MEF's Marine Logistics Planning Tool (MLPT) put up a great fight.  Checkout [MARADMIN 600/21](https://www.marines.mil/News/Messages/Messages-Display/Article/2815694/2021-inaugural-micro-application-development-innovation-challenge-results/) for more details. GROOT is live and can be accessed via CAC at https://groot.apps.stg.mach9.usmc.mil/
-
+<!-- more -->
 The challenge proved that given the tools, environments, resources, and time, Marines CAN:
   * Build full stack, cloud native web applications ready for deployment to the organization's network 
   * Effectively navigate all six steps of the Risk Management Framework (RMF) methodology to achieve an authority to Operate (ATO) in just ~90 days!

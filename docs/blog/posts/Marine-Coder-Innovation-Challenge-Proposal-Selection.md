@@ -5,13 +5,14 @@ categories:
  - News
 ---
 
+# Marine Coder Innovation Challenge Proposal Selection
 ## Four projects were selected for further development in the Marine Corps Business Operations Support Services (MCBOSS) accredited DevSecOps environment!
  The selected proposals are: 
   * I MEF: GCCS Reconciliation Tool
   * II MEF: Command Data Visualization Tool
   * III MEF: REDONKULATOR Logistics Planning Tool
   * MARFORRES: Predictive Maintenance Operations
-
+<! - more -->
 Each MEF team will begin a 90 day development evolution where they will learn how to: 
   * Plan and execute agile software development methodology
   * Achieve an Authority to Operate (ATO) through the Risk Management Framework (RMF) methodology

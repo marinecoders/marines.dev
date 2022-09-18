@@ -2,6 +2,8 @@
 date: 2021-01-25
 ---
 
+# NDAA
+
 ## *Get paid for programming skills similar to foreign languages!*
 
 # NDAA 2021 Section 241
@@ -13,7 +15,7 @@ date: 2021-01-25
 ## 241.Measuring and incentivizing programming proficiency
 **(a)** In general
 Not later than two years after the date of the enactment of this Act, the Secretary of Defense shall carry out the following activities:
-
+<!-- more -->
 **(1)** Leverage existing civilian software development and software architecture certification programs to implement coding language proficiency and artificial intelligence competency tests within the Department of Defense that—
 **(A)** Measure an individual's competency in using machine learning tools, in a manner similar to the way the Defense Language Proficiency Test measures competency in foreign language skills;
 **(B)** Enable the identification of members of the Armed Forces and civilian employees of the Department of Defense who have varying levels of quantified coding comprehension and skills and a propensity to learn new programming paradigms, algorithms, and data analytics; and

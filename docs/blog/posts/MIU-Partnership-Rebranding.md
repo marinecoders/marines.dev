@@ -7,11 +7,11 @@ authors:
   - collin.chew
   - drew.hutch
 ---
-
-![Marine Coders Rebrand](/assets/press/marinecoders_banner.png)
+# MIU Partnership Rebranding
+![Marine Coders Rebrand](/assets/marinecoders.png)
 
 Marine Coders is excited to announce that it has officially partnered with Marine Innovation Unit (MIU) to form the MIU Marine Coders.
-
+<!-- more -->
 This team will coordinate bringing on reserve software developers as a force provider for software activities and programs in the Marine Corps. We believe that these developers will be a game changer to create a better, more lethal Marine Corps. These positions are rank and MOS agnostic, meaning anyone with the right technical experience can make a difference. The partnership with MIU will advance both MIU and Marine Coder's mission sets. We are proud to offer 2 reserve Selected Marine Corps Reserve (SMCR) positions.
 
 [Marine Coders Full Stack Software Developer](https://miu.applytojob.com/apply/SARAyhWg6O/Marine-Coders-Full-Stack-Developer-Status-Open){: .btn .btn--info}
