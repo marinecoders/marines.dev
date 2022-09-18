@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Chat with Us!
 
 ### We offer two different chat locations to talk code.

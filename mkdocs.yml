@@ -3,6 +3,8 @@ site_name: Marine Coders
 repo_url: https://github.com/marinecoders/marinecoders.github.io
 repo_name: marinecoders/marines.dev
 edit_uri: ""
+
+#site_url: https://3d88-72-197-0-141.ngrok.io/
 theme:
   icon:
     repo: fontawesome/brands/github
@@ -37,13 +39,14 @@ theme:
         icon: material/lightbulb
         name: Switch to dark mode
 
-  favicon: /assets/favicon.png
-  logo: /assets/logo.png
+  favicon: assets/favicon.png
+  logo: assets/logo.png
 
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - footnotes
   - admonition
   - pymdownx.details
   - md_in_html
@@ -67,10 +70,16 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
+  - social:
+      cards_color:
+        fill: "#252a34" 
+        text: "#FFFFFF"
   - blog:
       draft_if_future_date: true
       authors_file: .authors.yml
-  - meta
+      authors_in_excerpt: 2
+  - meta:
+      meta_file: '**/.meta.yml' 
   - search
   - tags:
       tags_file: blog/tags.md
@@ -94,3 +103,4 @@ nav:
   - Blog:
     - blog/index.md 
   - Demo: /demo
+  
