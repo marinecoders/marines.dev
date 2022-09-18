@@ -22,6 +22,9 @@
 
 }
 
+    
+
+
 .md-button {
     color: #cf2929 !important;
 }
@@ -44,6 +47,9 @@
     color: #ffffff !important;
 }
 
+.md-footer-meta {
+    background-color: #1a1d24;
+}
 /* PyMdown Extensions Progress Bar CSS */
 
 .progress-label {
@@ -103,7 +109,7 @@
 
 /* USWDS Banner */
 
-* {
+body {
     margin: 0;
     padding: 0;
 }
