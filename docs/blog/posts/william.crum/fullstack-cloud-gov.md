@@ -14,7 +14,8 @@ links:
 
 Navigating software development in production environments can be tricky. It can be even more so since we are trying to develop solutions in the DoD. Applications need to be secure and compliant. Where can a developer test and build applications without using a commercial platform and without funding? Cloud.gov is an amazing PaaS that allows developers to test their tools in a federal service.
 
-\!\!\! quote "Cloud.gov" Cloud.gov is a secure and compliant Platform as a Service (PaaS). cloud.gov helps federal agencies deliver the services the public deserves in a faster, more user-centered way.
+!!! quote "Cloud.gov"
+  Cloud.gov is a secure and compliant Platform as a Service (PaaS). cloud.gov helps federal agencies deliver the services the public deserves in a faster, more user-centered way.
 <!-- more -->
 
 # What Cloud.gov offers
