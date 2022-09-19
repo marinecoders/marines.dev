@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2022-09-17T00:00:00Z
+date: 2022-09-17
 authors:
   - william.crum
 categories:
