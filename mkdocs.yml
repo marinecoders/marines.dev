@@ -4,7 +4,7 @@ repo_url: https://github.com/marinecoders/marinecoders.github.io
 repo_name: marinecoders/marines.dev
 edit_uri: ""
 
-#site_url: https://3d88-72-197-0-141.ngrok.io/
+site_url: https://marines.dev/
 theme:
   icon:
     repo: fontawesome/brands/github
@@ -27,6 +27,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - announce.dismiss
     
     
   palette:

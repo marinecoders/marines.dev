@@ -23,7 +23,9 @@
 }
 
     
-
+.md-banner {
+    background-color: #1a1d24; 
+}
 
 .md-button {
     color: #cf2929 !important;
