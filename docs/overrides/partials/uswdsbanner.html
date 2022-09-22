@@ -2,7 +2,7 @@
     <div class="banner__inner" style="width: 80%">
         <header class="banner-header">
             <img class="banner-icon" src="/assets/us_flag_small.png" alt="U.S. flag">
-            <div>Public Mirror Marine Coders Website</div>
+            <div>{{ config.banner.title }}</div>
             <a href="#" onclick="toggleContent()" class="classification-header__link"><small>Here's how you
                     know...</small></a>
         </header>
@@ -13,9 +13,7 @@
                         aria-hidden="true">
                     <div class="banner-content__text">
                         <p>
-                            <strong>Official websites use .mil</strong><br>
-                            This is not an official site. A .mil website belongs to an official government organization
-                            in the United States.
+                            {{ config.banner.dropdown.left }}
                         </p>
                     </div>
                 </div>
@@ -24,9 +22,7 @@
                         aria-hidden="true">
                     <div class="banner-content__text">
                         <p>
-                            <strong>Secure .dev websites use HTTPS</strong><br>
-                            A lock (&#128274;) or https:// means you've safely connected to the .dev website. Share
-                            sensitive information only on official, secure websites.
+                            {{ config.banner.dropdown.right }}
                         </p>
                     </div>
                 </div>

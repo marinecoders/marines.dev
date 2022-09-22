@@ -122,3 +122,15 @@ nav:
   - Blog:
     - blog/index.md 
   - Demo: /demo
+
+banner:
+  title: Public Mirror Marine Coders Website
+  dropdown:
+    left: >
+      <strong>Official websites use .mil</strong><br>
+      This is not an official site. A .mil website belongs to an official government organization
+      in the United States.
+    right: >
+      <strong>Secure .dev websites use HTTPS</strong><br>
+      A lock (&#128274;) or https:// means you've safely connected to the .dev website. Share
+      sensitive information only on official, secure websites.
