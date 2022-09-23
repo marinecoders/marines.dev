@@ -13,7 +13,7 @@ description: Any Marine a Coder. A devoted uniformed community of practice.
 </p>
 
 
-<div class="grid cards" markdown>
+<div class="grid cards no-margin" markdown>
 
 -   [:material-tools:{ .lg .middle } __Projects__](/projects)
 
