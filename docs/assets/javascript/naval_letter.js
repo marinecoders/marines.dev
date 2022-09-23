@@ -103,7 +103,9 @@ function generate() {
     docx.Packer.toBlob(doc).then(blob => {
         saveAs(blob, filename);
         console.log("document downloaded");
-    });
+    }).catch(
+        console.log("error downloading document")
+    );
 }
 
 function makeTextRun(text, font, size) {
