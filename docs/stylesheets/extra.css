@@ -207,6 +207,22 @@ body {
     margin: 1rem;
 }
 
+.icon-lock {
+    display: inline-block;
+    height: 1.5ex;
+    width: 1.21875ex;
+    fill: white;
+}
+
+.banner__lock-image {
+    width: 15px;
+    height: 12px;
+}
+
+.banner__lock-image path {
+    fill: white;
+}
+
 /* Custom CSS */
 .no-padding {
     padding: 0px !important;
