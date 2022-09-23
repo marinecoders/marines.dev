@@ -53,3 +53,7 @@ Prior to installation and repository setup ensure you have a version of Python 3
 ## Follow On Development Guides
 
 To continue to built onto this boiler plate please follow MkDocs or MkDocs-Material Guides listed.
+
+## Contributors
+
+We are open to contributors please view [contributions.md](/CONTRIBUTIONS.md)
