@@ -494,7 +494,7 @@ function ShowHideDiv(Id, Id2) {
 
 
 function AddViaTextBox() {
-    var div = document.createElement('DIV');
+    var div = document.createElement('div');
     div.innerHTML = GetDynamicViaTextBox("");
     document.getElementById("ViaTextBoxContainer").appendChild(div);
 }
@@ -509,7 +509,7 @@ function GetDynamicRefTextBox(value) {
         '<input type="button" value="Remove" onclick = "generatorBundle.removeRef(this)" >'
 }
 function AddRefTextBox() {
-    var div = document.createElement('DIV');
+    var div = document.createElement('div');
     div.innerHTML = GetDynamicRefTextBox("");
     document.getElementById("RefTextBoxContainer").appendChild(div);
 }
@@ -524,7 +524,7 @@ function GetDynamicEnclTextBox(value) {
         '<input type="button" value="Remove" onclick = "generatorBundle.removeEnc(this)" >'
 }
 function AddEnclTextBox() {
-    var div = document.createElement('DIV');
+    var div = document.createElement('div');
     div.innerHTML = GetDynamicEnclTextBox("");
     document.getElementById("EnclTextBoxContainer").appendChild(div);
 }
@@ -539,7 +539,7 @@ function GetDynamicCopyTextBox(value) {
         '<input type="button" value="Remove" onclick = "generatorBundle.removeCopy(this)" >'
 }
 function AddCopyTextBox() {
-    var div = document.createElement('DIV');
+    var div = document.createElement('div');
     div.innerHTML = GetDynamicCopyTextBox("");
     document.getElementById("CopyTextBoxContainer").appendChild(div);
 }
@@ -554,7 +554,7 @@ function GetDynamicBodyTextBox(value) {
 }
 
 function AddBodyTextBox() {
-    var div = document.createElement('DIV');
+    var div = document.createElement('div');
     div.innerHTML = GetDynamicBodyTextBox("");
     document.getElementById("BodyTextBoxContainer").appendChild(div);
 }
