@@ -138,7 +138,7 @@ body {
 .banner__outer {
     justify-content: center;
     display: flex;
-    background-color: #1a1d24;
+    background-color: #13151b;
 }
 
 .banner-header {
@@ -177,4 +177,13 @@ body {
 
 .banner-content__logo {
     margin: 1rem;
+}
+
+/* Custom CSS */
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-margin {
+    margin: 0px !important;
 }

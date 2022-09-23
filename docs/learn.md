@@ -3,6 +3,18 @@
 ## Great Resources for Learning Modern Software Development
 Useful links to get you started - no federal endorsement intended or implied. Contact us to help point you in the right direction for your project.
 
+### DoD Tools and Services
+[Cloud.gov - Online PaaS with Sandbox](https://cloud.gov)
+
+:   Offers a fast way for federal agencies to host and update websites, APIs, and other applications. Employees and contractors can focus on developing mission-critical applications, leaving server infrastructure management to us.
+
+[Data.gov - Catalog of data related sources](https://data.gov)
+
+:   Data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and more.
+
+[USWDS - The United States Web Design System](https://designsystem.digital.gov/)
+:   A design system for the federal government. 
+
 ### Self Guided Courses for Zero to Hero
 * [DigitalU - Air Force partnering with Udemy, PluralSight, and Udacity](http://digitalu.af.mil)
 * [FreeCodeCamp](https://www.freecodecamp.org/)
@@ -28,7 +40,12 @@ Useful links to get you started - no federal endorsement intended or implied. Co
 * [Android Studio](https://developer.android.com/studio)
 
 ## Back End
-#### Web
+
+### API
+* [Google API Design Standards](https://cloud.google.com/apis/design)
+* [Azure RESTful web API Design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design)
+* [RESTful API Standards and Design](https://restfulapi.net/)
+### Web
 * [Django Girls Tutorial](https://tutorial.djangogirls.org/en/)
 * [Django Web Framework - Official Website](https://www.djangoproject.com/)
 * [Django REST Framework - Official Website](https://www.django-rest-framework.org/)

@@ -1,6 +1,7 @@
 ---
-draft: false
+draft: true
 date: 2022-09-17
+draft: true
 authors:
   - william.crum
 categories:
@@ -16,6 +17,7 @@ Navigating software development in production environments can be tricky. It can
 
 !!! quote "Cloud.gov"
     Cloud.gov is a secure and compliant Platform as a Service (PaaS). cloud.gov helps federal agencies deliver the services the public deserves in a faster, more user-centered way.
+    
 <!-- more -->
 
 # What Cloud.gov offers
