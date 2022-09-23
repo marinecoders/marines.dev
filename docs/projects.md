@@ -13,7 +13,7 @@ A Twitter bot to tweet Marine Administrative Messages (MARADMINS) as they are pu
   * UPDATE: MVP#1 Released!
   * Use Chrome to open this webapp.
   * Known Issues: Header does not display correctly for page 2 and on. This will be fixed in MVP#2. Page Numbers coming soon. Known issues with javascript blocked on MCEN Internet Explorer and Edge.
-  * This application will automatically format your Naval Letter Format so you don't have to waste days of your life in routing. [Source Code](https://github.com/marinecoders/marinecoders.github.io)
+  * This application will automatically format your Naval Letter Format so you don't have to waste days of your life in routing. [Source Code](https://github.com/marinecoders/marines.dev)
 
 
 ### MCEN Group Automation
@@ -25,7 +25,7 @@ A Twitter bot to tweet Marine Administrative Messages (MARADMINS) as they are pu
  * **Execution**: Using [Active Directory library](https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=windowsserver2019-ps) in PowerShell automate the process of "scanning" through users, determine which users need to be added to which groups and remove users who are no longer required to be on the distribution list. Managing Active Directory Groups is important because it maintains a clean, healthy, and secure Active Directory environment.
 
 ### Marine Coders Website
-[Project Repository](https://github.com/marinecoders/marinecoders.github.io)
+[Project Repository](https://github.com/marinecoders/marines.dev)
 
 ### Suggest a Project
 * Click the blue smiley face box in the middle right.

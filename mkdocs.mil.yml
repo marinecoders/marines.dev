@@ -4,7 +4,7 @@ repo_url: https://github.com/marinecoders
 repo_name: marinecoders/marines.dev
 edit_uri: ""
 
-site_url: https://marines.dev/
+site_url: https://marinecoders.usmc.mil/
 theme:
   icon:
     repo: fontawesome/brands/github
@@ -127,13 +127,13 @@ nav:
   - Demo: /demo
 
 banner:
-  title: Public Mirror Marine Coders Website
+  title: Official Marine Coders Website
   dropdown:
     left: >
       <strong>Official websites use .mil</strong><br>
-      This is not an official site. A .mil website belongs to an official government organization
+      This is an official site. A .mil website belongs to an official government organization
       in the United States.
     right: >
-      <strong>Secure .dev websites use HTTPS</strong><br>
-      A lock (&#128274;) or https:// means you've safely connected to the .dev website. Share
+      <strong>Secure .mil websites use HTTPS</strong><br>
+      A lock (&#128274;) or https:// means you've safely connected to the .mil website. Share
       sensitive information only on official, secure websites.

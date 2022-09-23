@@ -7,7 +7,7 @@ On our website we offer members links to opportunities (such as the USAF Platfor
 * Agile and DevOps methodologies
 * Web development, Mobile Development, Front End/Back End frameworks
 * Platforms and infrastructure
-* and [more!](https://marinecoders.github.io/learn/) 
+* and [more!](https://marines.dev/learn/) 
 We also provide a link to the DOD DevSecOps services page provided by the USAF.
 
 ## What We Do

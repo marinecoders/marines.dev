@@ -15,7 +15,7 @@ Any Marine is empowered to build software to meet mission. (Any Marine a Coder)
 
 ## Our Offerings
 
-* [Open Source Repository](https://github.com/marinecoders/marinecoders.github.io) to host and collaborate on projects
+* [Open Source Repository](https://github.com/marinecoders/marines.dev) to host and collaborate on projects
 * Make Marines aware of software development residencies, internships, and other opportunities across the Department of Defense
 * Host events and hackathons for professional development
 * Sponsor software development innovation challenges to get accredited software tools and environments in the hands of Marines
