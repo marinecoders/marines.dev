@@ -120,12 +120,40 @@ body {
     .banner-content-click {
         display: grid;
     }
+
+    .banner-header {
+        padding: 4px;
+        margin: 5px 0px 5px 0px;
+        display: grid !important;
+        padding-bottom: 5px;
+    }
+
+    .banner-header a {
+        padding: 0px;
+        padding-left: 5%;
+    }
+
+    .banner-header div {
+        padding: 0px;
+    }
+
+    .banner__inner {
+        width: 95%;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
     .banner-content-click {
         display: flex;
     }
+    .banner__inner {
+        width: 80%;
+    }
+}
+
+.banner-icon {
+    margin-right: 5px;
 }
 
 .banner__inner {
@@ -149,6 +177,7 @@ body {
 
 .banner-header a {
     color: white;
+    text-decoration: underline;
 }
 
 .banner-header img {
