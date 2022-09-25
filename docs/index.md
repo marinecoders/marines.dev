@@ -1,5 +1,4 @@
 ---
-title: Marine Coders
 description: Any Marine a Coder. A non-official organization comprised of Active Duty/Reserve Marines, Marine Veterans, and U.S. Citizens who want to help Marines through code.
 hide:
   - navigation
