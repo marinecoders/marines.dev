@@ -165,7 +165,7 @@ body {
 
     .banner-header a {
         padding: 0px;
-        padding-left: 5%;
+        padding-left: 1.5em;
     }
 
     .banner-header div {
@@ -176,6 +176,11 @@ body {
         width: 95%;
     }
 
+    .banner-content__text {
+        font-size: .65rem;
+        margin-left: 5.2rem;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -184,6 +189,10 @@ body {
     }
     .banner__inner {
         width: 80%;
+    }
+
+    .banner-content__text {
+        font-size: .8rem;
     }
 }
 
@@ -236,7 +245,6 @@ body {
 .banner-content__text {
     font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     color: white;
-    font-size: .8rem !important;
 }
 
 .banner-content__logo {
