@@ -1,5 +1,6 @@
 site_name: Marine Coders
-site_url: https://marines.dev/
+site_url: https://v2.marines.dev/
+# site_url: https://marines.dev/
 site_description: "Marine Coders is a community of Marine Corps stakeholders, active duty, reserve, retired, civilian, etc., that are interested in improving the force through software development."
 slogan: "#AnyMarineACoder"
 
