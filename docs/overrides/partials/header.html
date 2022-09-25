@@ -19,18 +19,18 @@ This file was automatically generated - do not edit
             <div class="md-header__ellipsis">
                 <div class="md-header__topic">
                     <span class="md-ellipsis">
-                        <a href="/">{{config.site_name}}</a>
-                    </span> <small style="font-weight: 100;">&nbsp;{{ config.slogan }}</small>
+                        <a href="/">{{config.site_name}}</a>&nbsp;
+                    </span> <small class="md-header__sub" style="font-weight: 100;">{{ config.slogan }}</small>
                     </br>
                 </div>
                 <div class="md-header__topic" data-md-component="header-topic">
-                    <span class="md-ellipsis">
+                    <span class="md-ellipsis md-header__custom">
                         {% if page.meta and page.meta.title %}
                         {{ page.meta.title }}
                         {% else %}
                         <span class="md-ellipsis" style="font-weight: 700">
                             <a href="/">{{config.site_name}}</a>
-                        </span> <small style="font-weight: 100">{{ page.title }}</small>
+                        </span> <small class="md-header__sub" style="font-weight: 100;">{{ page.title }}</small>
                         {% endif %}
                     </span>
                 </div>
