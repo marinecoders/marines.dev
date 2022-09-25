@@ -21,7 +21,7 @@ hide:
 
     Learn more about our projects.
 
-    [:octicons-arrow-right-24:Learn More](/projects)
+    [:octicons-arrow-right-24:Learn about our Projects](/projects)
 
 -   [:material-account-group-outline:{ .lg .middle } __Join Marine Coders Chat__](/chat)
 
@@ -29,7 +29,7 @@ hide:
 
     Let’s build together. Join a community of practice
 
-    [:octicons-arrow-right-24: Chat](/chat)
+    [:octicons-arrow-right-24: Chat With Us](/chat)
 
 -   [:material-school:{ .lg .middle } __Learn to Code__](/learn)
 
@@ -37,7 +37,7 @@ hide:
 
     Learn more about coding, DevSecOps, and enjoy our list of free courses
 
-    [:octicons-arrow-right-24: Start Learning](/learn)
+    [:octicons-arrow-right-24: Start Learning Today](/learn)
 
 </div>
 
