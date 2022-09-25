@@ -1,45 +1,53 @@
 /* Overwriting Themes */
+:root {
+    --marine-coders-bg: #252a34;
+    --marine-coders-bg--dark: #1a1d24;
+    --marine-coders-bg--darkest: #13151b;
+    --marine-coders-bg--light: #dee4e7;
+    --marine-coders-red--light: #ecb7b7;
+    --marine-coders-red: #cf2929;
+}
 
 [data-md-color-scheme="marinecoders-light"] {
-    --md-primary-fg-color: #1a1d24;
+    --md-primary-fg-color: var(--marine-coders-bg--dark);
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark: #cf2929;
-    --md-typeset-a-color: #cf2929;
-    --md-accent-fg-color: #cf2929;
+    --md-primary-fg-color--dark: var(--marine-coders-red);
+    --md-typeset-a-color: var(--marine-coders-red);
+    --md-accent-fg-color: var(--marine-coders-red);
     --md-default-bg-color: #dee4e7;
 
 }
 
 [data-md-color-scheme="slate"] {
     --md-hue: 210;
-    --md-default-bg-color: #252a34;
-    --md-primary-fg-color: #1a1d24;
+    --md-default-bg-color: var(--marine-coders-bg);
+    --md-primary-fg-color: var(--marine-coders-bg--dark);
     --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark: #cf2929;
-    --md-typeset-a-color: #cf2929;
-    --md-accent-fg-color: #cf2929;
-    --md-accent-fg-color--transparent: hsla(#cf2929, 0.1);
+    --md-primary-fg-color--dark: var(--marine-coders-red);
+    --md-typeset-a-color: var(--marine-coders-red);
+    --md-accent-fg-color: var(--marine-coders-red);
+    --md-accent-fg-color--transparent: hsla(var(--marine-coders-red), 0.1);
 
 }
 
     
 .md-banner {
-    background-color: #1a1d24; 
+    background-color: var(--marine-coders-bg--dark); 
 }
 
 .md-button {
-    color: #cf2929 !important;
+    color: var(--marine-coders-red) !important;
 }
 
 .md-button:is(:focus, :hover) {
-    background-color: #cf2929;
-    border-color: #cf2929;
+    background-color: var(--marine-coders-red);
+    border-color: var(--marine-coders-red);
     color: #ffffff !important;
 }
 
 .md-button--primary {
-    background-color: #cf2929 !important;
-    border-color: #cf2929 !important;
+    background-color: var(--marine-coders-red) !important;
+    border-color: var(--marine-coders-red) !important;
     color: #ffffff !important;
 }
 
@@ -50,7 +58,7 @@
 }
 
 .md-footer-meta {
-    background-color: #1a1d24;
+    background-color: var(--marine-coders-bg--dark);
 }
 /* PyMdown Extensions Progress Bar CSS */
 
@@ -165,7 +173,7 @@ body {
 .banner__outer {
     justify-content: center;
     display: flex;
-    background-color: #13151b;
+    background-color: var(--marine-coders-bg--darkest);
 }
 
 .banner-header {
