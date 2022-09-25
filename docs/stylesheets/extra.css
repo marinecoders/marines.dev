@@ -208,19 +208,12 @@ body {
 }
 
 .icon-lock {
-    display: inline-block;
-    height: 1.5ex;
-    width: 1.21875ex;
-    fill: white;
+    color: transparent;  
+    text-shadow: 0 0 0 white;
 }
 
-.banner__lock-image {
-    width: 15px;
-    height: 12px;
-}
-
-.banner__lock-image path {
-    fill: white;
+.icon-lock::selection {
+    text-shadow: 0 0 0 white;
 }
 
 /* Custom CSS */
