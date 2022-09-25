@@ -1,21 +1,38 @@
 site_name: Marine Coders
+site_url: https://marinecoders.usmc.mil/
+site_description: "Marine Coders is a community of Marine Corps stakeholders, active duty, reserve, retired, civilian, etc., that are interested in improving the force through software development."
+slogan: "#AnyMarineACoder"
 
 repo_url: https://github.com/marinecoders
 repo_name: marinecoders/marines.dev
 edit_uri: ""
 
-site_url: https://marinecoders.usmc.mil/
 theme:
+  name: material
+  custom_dir: docs/overrides
+  language: en
+
   icon:
     repo: fontawesome/brands/github
-  custom_dir: docs/overrides
-  name: material
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: marinecoders-light
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
   static_templates:
     - 404.html
+
   include_search_page: false
   search_index_only: true
 
-  language: en
   features:
     - content.code.annotate
     - content.tooltips
@@ -29,20 +46,6 @@ theme:
     - search.suggest
     - announce.dismiss
     
-    
-  palette:
-    - scheme: slate
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
-    - scheme: marinecoders-light
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-
-  favicon: assets/favicon.png
-  logo: assets/logo.png
-
 extra_css:
   - stylesheets/extra.css
 
@@ -91,7 +94,13 @@ plugins:
   - search
   - tags:
       tags_file: blog/tags.md
-      
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags 
 
 extra:
   social:
@@ -101,6 +110,9 @@ extra:
       link: https://web.git.mil/marine-coders
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/marine-coders
+    - icon: fontawesome/solid/square-rss
+      link: https://marinecoders.usmc.mil/feed_rss_created.xml
+      
   consent:
     title: Cookie Consent
     description: >- 
@@ -117,7 +129,7 @@ copyright: >
   </br><a href="#__consent"><small>Cookie Settings</small></a>
 
 nav:
-  - Home: 'https://marines.dev'
+  - Home: 'https://marinecoders.usmc.mil'
   - About: /about
   - Learn: /learn
   - Projects: /projects

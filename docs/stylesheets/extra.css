@@ -6,6 +6,8 @@
     --marine-coders-bg--light: #dee4e7;
     --marine-coders-red--light: #ecb7b7;
     --marine-coders-red: #cf2929;
+
+    --md-text-font-family: "Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol";
 }
 
 [data-md-color-scheme="marinecoders-light"] {

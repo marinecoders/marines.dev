@@ -19,7 +19,7 @@ This file was automatically generated - do not edit
             <div class="md-header__ellipsis">
                 <div class="md-header__topic">
                     <span class="md-ellipsis">
-                        {{ config.site_name }}
+                        <a href="/">{{config.site_name}}</a> <small style="font-weight: lighter" class="md-meta">{{ config.slogan }}</small>
                     </span>
                     </br>
                 </div>
@@ -28,7 +28,9 @@ This file was automatically generated - do not edit
                         {% if page.meta and page.meta.title %}
                         {{ page.meta.title }}
                         {% else %}
-                        {{ page.title }}
+                        <span class="md-ellipsis" style="font-weight: 700">
+                            <a href="/">{{config.site_name}}</a>
+                        </span> <small style="font-weight: lighter" class="md-meta">{{ page.title }}</small>
                         {% endif %}
                     </span>
                 </div>
