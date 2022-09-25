@@ -32,9 +32,9 @@
 
 }
 
-    
+
 .md-banner {
-    background-color: var(--marine-coders-bg--dark); 
+    background-color: var(--marine-coders-bg--dark);
 }
 
 .md-button {
@@ -156,6 +156,7 @@ body {
     .banner-content-click {
         display: grid;
     }
+
     .banner-header {
         padding: 4px;
         margin: 5px 0px 5px 0px;
@@ -187,6 +188,7 @@ body {
     .banner-content-click {
         display: flex;
     }
+
     .banner__inner {
         width: 80%;
     }
@@ -252,7 +254,7 @@ body {
 }
 
 .icon-lock {
-    color: transparent;  
+    color: transparent;
     text-shadow: 0 0 0 white;
 }
 
@@ -267,4 +269,63 @@ body {
 
 .no-margin {
     margin: 0px !important;
+}
+
+/* Initial Body Fade In */
+body {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
