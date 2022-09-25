@@ -84,6 +84,10 @@
     }
 }
 
+.md-header__sub {
+    color: var(--md-footer-fg-color--light);
+}
+
 /* PyMdown Extensions Progress Bar CSS */
 
 .progress-label {
