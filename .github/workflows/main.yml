@@ -14,7 +14,8 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install pillow cairosvg mkdocs-rss-plugin
-      - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+      - run: git clone -b 8.5.7-insiders-4.26.1 https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders
+      - run: pip install -e mkdocs-material-insiders
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 
