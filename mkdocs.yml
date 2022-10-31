@@ -114,20 +114,8 @@ extra:
     - icon: fontawesome/solid/square-rss
       link: https://marines.dev/feed_rss_created.xml
       
-  consent:
-    title: Cookie Consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our conten and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our site better.</br>
-    actions:
-      - accept
-      - reject
-      
 copyright: >
   Copyright &copy; 2022 Marine Coders
-  </br><a href="#__consent"><small>Cookie Settings</small></a>
 
 nav:
   - Home: 'https://marines.dev'
