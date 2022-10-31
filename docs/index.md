@@ -6,10 +6,10 @@ hide:
 ---
 
 <p align="center" class="no-margin" >
-<img width="1000px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders_invert.png#only-light" src="/assets/marinecoders_invert.avif?_cchid=876d8396266addb9cd94db80a5998c9c#only-light">
+<img width="1000px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders_invert.png#only-light" src="/assets/marinecoders_invert.png?_cchid=876d8396266addb9cd94db80a5998c9c#only-light">
 </p>
 <p align="center" class="no-margin" >
-<img width="1000px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders.png#only-dark" src="/assets/marinecoders.avif?_cchid=9617b2808baeb3906858de39860c3fad#only-dark">
+<img width="1000px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders.png#only-dark" src="/assets/marinecoders.png?_cchid=9617b2808baeb3906858de39860c3fad#only-dark">
 </p>
 
 
