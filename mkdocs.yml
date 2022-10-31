@@ -118,13 +118,13 @@ copyright: >
 
 nav:
   - Home: 'https://marines.dev'
-  - About: /about
-  - Learn: /learn
-  - Projects: /projects
-  - Chat: /chat
   - Blog:
     - blog/index.md 
-  - Demo: /demo
+  - Learn: /learn
+  - Projects: /projects
+  - Oppurtunities: /oppurtunities
+  - Chat: /chat
+  - About: /about
 
 banner:
   title: Public Mirror Marine Coders Website
