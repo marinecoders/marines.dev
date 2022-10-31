@@ -26,39 +26,35 @@ massa, nec semper lorem quam in massa.</p>
 
 html_url: "https://github.com/marinecoders/marines.dev/issues/13"
 */
+function generate_issues(item, style, issues){
+    $(item)
+        .append(
+            `<b>Found ${ issues.length } open issues.</b>`
+        );
+    $.each(issues, function (i, issue) {
+        $(item)
+            .append(
+                `
+                <div class="admonition ${style}">
+                <p class="admonition-title">
+                    <a href="${ issue.html_url }">#${ issue.number }</a> - ${ issue.title }
+                </p>
+                <p>
+                    ${ converter.makeHtml(issue.body) }
+                </p>
+                </div>
+                `
+            )
+    });
+};
 
 $(document).ready(function () {
     $.getJSON(all_bugs, function (allIssues) {
-        $(".bugs")
-            .append(
-                "<b>Found " + allIssues.length + " open Bugs.</b>"
-            );
-        $.each(allIssues, function (i, issue) {
-            console.log(issue)
-            $(".bugs")
-                .append(
-                    "<div class=\"admonition warning\">" + 
-                    "<p class=\"admonition-title\">" + "<a href=\"" + issue.html_url + "\"> #" + issue.number + "</a> - " + issue.title + "</p>" +
-                    "<p>" + converter.makeHtml(issue.body) + 
-                    "</p></div>"
-                )
-        });
+        generate_issues(".bugs", "warning", allIssues)
     });
+
     $.getJSON(feature_requests, function (allIssues) {
-        $(".featurerequests")
-            .append(
-                "<b>Found " + allIssues.length + " open Feature Request.</b>"
-            );
-        $.each(allIssues, function (i, issue) {
-            console.log(issue)
-            $(".featurerequests")
-                .append(
-                    "<div class=\"admonition abstract\">" + 
-                    "<p class=\"admonition-title\">" + "<a href=\"" + issue.html_url + "\"> #" + issue.number + "</a> - " + issue.title + "</p>" +
-                    "<p>" + converter.makeHtml(issue.body) + 
-                    "</p></div>"
-                )
-        });
+        generate_issues(".featurerequests", "note", allIssues)
     });
 });
     
