@@ -4,8 +4,6 @@ on:
     branches:
       - master
       - main
-env:
-  mkdocs_material_tag: 8.5.7-insiders-4.26.1
   
 jobs:
   deploy:
@@ -21,4 +19,5 @@ jobs:
       - run: pip install -e mkdocs-material-insiders
       - run: mkdocs gh-deploy --force
 env:
+  mkdocs_material_tag: 8.5.7-insiders-4.26.1
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 
