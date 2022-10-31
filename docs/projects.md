@@ -10,6 +10,7 @@ A Twitter bot to tweet Marine Administrative Messages (MARADMINS) as they are pu
 
 ### Naval Letter Format Generator Application
 [Link to App - In Progress](/navalletter)
+
   * UPDATE: MVP#1 Released!
   * Use Chrome to open this webapp.
   * Known Issues: Header does not display correctly for page 2 and on. This will be fixed in MVP#2. Page Numbers coming soon. Known issues with javascript blocked on MCEN Internet Explorer and Edge.
@@ -18,18 +19,19 @@ A Twitter bot to tweet Marine Administrative Messages (MARADMINS) as they are pu
 
 ### MCEN Group Automation
 [P1 GitLab Repository \(Requires Authentication\)](https://code.il2.dso.mil/marine-coders/mcen-group-automation)
- * **Purpose**: To automate MCEN Groups by adding and removing users based on unit rosters. This program seeks to improve the process of managing Active Directory groups.
 
- * **Problem**: Information Security Clerks (ISC) are usually tasked out to update distribution lists. These distribution lists usually include hundreds to thousands of individuals, because of the size of these groups it is easy to overlook users who are not authorized.
+  * **Purpose**: To automate MCEN Groups by adding and removing users based on unit rosters. This program seeks to improve the process of managing Active Directory groups.
 
- * **Execution**: Using [Active Directory library](https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=windowsserver2019-ps) in PowerShell automate the process of "scanning" through users, determine which users need to be added to which groups and remove users who are no longer required to be on the distribution list. Managing Active Directory Groups is important because it maintains a clean, healthy, and secure Active Directory environment.
+  * **Problem**: Information Security Clerks (ISC) are usually tasked out to update distribution lists. These distribution lists usually include hundreds to thousands of individuals, because of the size of these groups it is easy to overlook users who are not authorized.
+
+  * **Execution**: Using [Active Directory library](https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=windowsserver2019-ps) in PowerShell automate the process of "scanning" through users, determine which users need to be added to which groups and remove users who are no longer required to be on the distribution list. Managing Active Directory Groups is important because it maintains a clean, healthy, and secure Active Directory environment.
 
 ### Marine Coders Website
 [Project Repository](https://github.com/marinecoders/marines.dev)
 
 ### Suggest a Project
-* Click the blue smiley face box in the middle right.
-* Press "Give Feedback" Button
-* Submit new project idea!
+  * Click the blue smiley face box in the middle right.
+  * Press "Give Feedback" Button
+  * Submit new project idea!
 
 <script src="https://sak.userreport.com/518be00889324d26a196/launcher.js" async id="userreport-launcher-script"></script>
