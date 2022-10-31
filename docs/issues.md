@@ -26,10 +26,10 @@ massa, nec semper lorem quam in massa.</p>
 
 html_url: "https://github.com/marinecoders/marines.dev/issues/13"
 */
-function generate_issues(item, style, issues){
+function generate_issues(item, style, issues, title){
     $(item)
         .append(
-            `<b>Found ${ issues.length } open issues.</b>`
+            `<b>Found ${ issues.length } open ${ title }.</b>`
         );
     $.each(issues, function (i, issue) {
         $(item)
@@ -50,11 +50,11 @@ function generate_issues(item, style, issues){
 
 $(document).ready(function () {
     $.getJSON(all_bugs, function (allIssues) {
-        generate_issues(".bugs", "warning", allIssues)
+        generate_issues(".bugs", "warning", allIssues, "Bugs")
     });
 
     $.getJSON(feature_requests, function (allIssues) {
-        generate_issues(".featurerequests", "note", allIssues)
+        generate_issues(".featurerequests", "note", allIssues, "Feature Requests")
     });
 });
     
