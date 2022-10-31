@@ -87,7 +87,6 @@ plugins:
         fill: "#252a34" 
         text: "#FFFFFF"
   - blog:
-      draft_if_future_date: true
       authors_file: .authors.yml
       authors_in_excerpt: 2
   - meta:
