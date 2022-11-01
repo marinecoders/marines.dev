@@ -1,19 +1,27 @@
-# Oppurtunities
+---
+date: 2022-10-18
+categories: 
+ - Announcements
+ - News
+authors:
+  - drew.hutch
+---
 
-## Marine Coders Open Billets
+# MIU Marine Coders FY23 Recruiting - Reserves
 
-Join MIU Marine Coders (reserve opportunity only) and contribute to critical missions as a software developer, data architect, designer, developer advocate, or product manager!
+## Join MIU Marine Coders (reserve opportunity only) and contribute to critical missions as a software developer, data architect, or designer!
 
-[MIU Marine Coders FY23 Application](https://20210826173501_9th2w6eav43dzwba.applytojob.com/apply/W73XeRgThy/FY23-MIU-Application-all-Branches-All-Positions){ .md-button }
-{: .text-center}
-
-#### The application now consists of two parts: 
+### FY23 Applications are open through 11 November 2022 
 <p style="float: right" class="no-margin" >
 <img width="250px" alt="Image title" data-cms-original-src="/assets/marinecoders_invert.png#only-light" src="/assets/Marine Innovation Unit.png#only-light">
 </p>
 <p style="float: right" class="no-margin" >
 <img width="250px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders.png#only-dark" src="/assets/Marine Innovation Unit 600x600.png#only-dark">
 </p>
+
+[Apply Now](https://20210826173501_9th2w6eav43dzwba.applytojob.com/apply/W73XeRgThy/FY23-MIU-Application-all-Branches-All-Positions){ .md-button }
+
+#### The application now consists of two parts: 
 1. Apply at the link above and select *ILB-Software Data* for the "What is your third preference for Branch / role in the unit?" drop down
 2. An email with supplemental documents
  (Note: the application is not complete and will not be considered without both parts) 
