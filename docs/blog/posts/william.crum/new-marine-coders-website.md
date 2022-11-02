@@ -5,7 +5,7 @@ categories:
  - Technical
 ---
 
-# Moving Marine Coders website from Jekyll to MkDocs
+# New Marine Coders Website
 Marine Coders is happy to announce the second version of the Marine Coders website! We moved away from the Ruby and Jekyll site to Python and MkDocs for a better development experience. We hope that this new website with its integration, extensibility and style brings our community and developers a better experience. 
 
 <!-- more -->
