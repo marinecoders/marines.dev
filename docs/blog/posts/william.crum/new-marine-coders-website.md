@@ -17,7 +17,7 @@ The old Ruby Based Static Site Generated website was originally forked from the 
   - [Minimal Mistakes (Jekyll Theme)](https://mmistakes.github.io/minimal-mistakes/)
   - [Github Pages](https://pages.github.com/)
 
-Some of the issues we were encountering were related to Github Actions during the build process. Often times when new Gems would come, recommended by [Dependabot](https://github.com/dependabot) or [Snyk](https://snyk.io/), we would update them and conflicts within versioning of certain dependcies would break the build process.
+Some of the issues we were encountering were related to Github Actions during the build process. Often times when new Gems would come, recommended by [Dependabot](https://github.com/dependabot) or [Snyk](https://snyk.io/), we would update them and conflicts within versioning of certain dependencies would break the build process.
 
 Thank you to all of our contributors!
 
@@ -25,10 +25,10 @@ Thank you to all of our contributors!
   <img width="70%" src="https://contrib.rocks/image?repo=marinecoders/marinecoders.github.io" />
 </a>
 
-Since we work within the Department of Defense we found it might be useful to extend and include compontents of the Marine Coders website with styling and features seen in the [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/). Originally we built out this hacky ["Banner Injector"](https://github.com/elisoncrum/banner-injector), we added it to our Github Actions pipeline but with depencies across Python and Jekyll now we thought it might be best for the Pipeline, Security, and future extendability to move into something we can take more control of.
+Since we work within the Department of Defense we found it might be useful to extend and include components of the Marine Coders website with styling and features seen in the [U.S. Web Design System (USWDS)](https://designsystem.digital.gov/). Originally we built out this hacky ["Banner Injector"](https://github.com/elisoncrum/banner-injector), we added it to our Github Actions pipeline but with dependencies across Python and Jekyll now we thought it might be best for the Pipeline, Security, and future extendability to move into something we can take more control of.
 
 ## Moving Marine Coders website from Jekyll to MkDocs
-Our new Marine Coders website tries to fix all of the issues we noticed with the old site. Our new site seeks to have better page quality, less dependcies, consistent styles, be more extensible, more emedable with Open Graph and more!
+Our new Marine Coders website tries to fix all of the issues we noticed with the old site. Our new site seeks to have better page quality, less dependencies, consistent styles, be more extensible, more emendable with Open Graph and more!
 
   - [MkDocs](https://www.mkdocs.org/)
   - [Mkdocs Material Theme](https://squidfunk.github.io/mkdocs-material/)
