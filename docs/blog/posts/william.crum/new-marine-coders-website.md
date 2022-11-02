@@ -17,7 +17,7 @@ The old Ruby Based Static Site Generated website was originally forked from the 
   - [Minimal Mistakes (Jekyll Theme)](https://mmistakes.github.io/minimal-mistakes/)
   - [Github Pages](https://pages.github.com/)
 
-Some of the issues we were encountering were related to Github Actions during the build process. Often times when new Gems would come, recommended by [Dependabot](https://github.com/dependabot) or [Snyk](https://snyk.io/), we would update them and conflicts within versioning of certain dependencies would break the build process.
+Some of the issues we were encountering were related to Github Actions during the build process. Often times when new Gem versions would come, recommended by [Dependabot](https://github.com/dependabot) or [Snyk](https://snyk.io/), we would update them and conflicts within versioning of certain dependencies would break the build process. 
 
 Thank you to all of our contributors!
 
