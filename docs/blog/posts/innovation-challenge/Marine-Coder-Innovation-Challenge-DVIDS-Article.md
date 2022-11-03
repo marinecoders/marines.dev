@@ -3,6 +3,11 @@ date: 2021-10-25
 categories: 
  - Announcements
  - News
+links:
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Winner.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Proposal-Selection.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Voting-Panel-Day.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge.md
 ---
 
 # Marine Coder Innovation Challenge DVIDS Article

@@ -5,6 +5,8 @@ categories:
  - News
 authors:
   - drew.hutch
+links:
+  - blog/posts/marine-innovation-unit/MIU-Partnership-Rebranding.md
 ---
 
 # MIU Marine Coders FY23 Recruiting - Reserves

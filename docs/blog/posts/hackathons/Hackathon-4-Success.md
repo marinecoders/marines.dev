@@ -2,6 +2,8 @@
 date: 2020-12-16
 tags:
  - Hackathon
+links:
+ - blog/posts/hackathons/Hackathon-4.md
 ---
 # Hackathon Success
 Our latest Hackathon was as a huge success!  We added many new features to the Marine Coders website! New features include 1) a subscription function, 2) a project proposal function and 3) updates to our Event page layout!

@@ -3,6 +3,8 @@ date: 2021-08-26
 categories: 
  - Announcements
  - News
+links:
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge.md
 ---
 
 # Marine Coder Innovation Challenge Voting Panel Day

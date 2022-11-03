@@ -3,6 +3,10 @@ date: 2021-10-19
 categories: 
  - Announcements
  - News
+links:
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Proposal-Selection.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Voting-Panel-Day.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge.md
 ---
 # Marine Coder Innovation Challenge Winner
 ## We are excited to announce that I MEF and their GCCS Reconciliation Tool (GROOT) is the winner of the 2021 Marine Coder Innovation Challenge!  

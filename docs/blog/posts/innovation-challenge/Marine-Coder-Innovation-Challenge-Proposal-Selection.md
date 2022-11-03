@@ -3,6 +3,9 @@ date: 2021-04-17
 categories: 
  - Announcements
  - News
+links:
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge-Voting-Panel-Day.md
+ - blog/posts/innovation-challenge/Marine-Coder-Innovation-Challenge.md
 ---
 
 # Marine Coder Innovation Challenge Proposal Selection
