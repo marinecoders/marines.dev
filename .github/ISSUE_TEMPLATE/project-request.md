@@ -2,7 +2,7 @@
 name: Project Request
 about: Suggest a project for Marine Coders
 title: ''
-labels: feature request
+labels: project suggestion
 assignees: ''
 
 ---
