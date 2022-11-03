@@ -28,7 +28,7 @@ A special thanks to everyone who contributed to the old site!
 </a>
 
 ## Moving Marine Coders website from Jekyll to MkDocs
-Our new Marine Coders website tries to fix all of the issues we noticed with the old site. Our new site seeks to have better page quality, less dependencies, consistent styles, be more extensible, more emendable with Open Graph and more!
+Our new Marine Coders website tries to fix all of the issues we noticed with the old site. Our new site seeks to have better page quality, less dependencies, consistent styles, be more extensible, more embeddable with Open Graph and more!
 
   - [MkDocs](https://www.mkdocs.org/)
   - [Mkdocs Material Theme](https://squidfunk.github.io/mkdocs-material/)

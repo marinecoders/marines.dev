@@ -1,4 +1,4 @@
-# Oppurtunities
+# Opportunities
 
 ## Marine Coders Open Billets
 
