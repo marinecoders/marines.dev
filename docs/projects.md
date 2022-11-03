@@ -26,12 +26,4 @@ A Twitter bot to tweet Marine Administrative Messages (MARADMINS) as they are pu
 
   * **Execution**: Using [Active Directory library](https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=windowsserver2019-ps) in PowerShell automate the process of "scanning" through users, determine which users need to be added to which groups and remove users who are no longer required to be on the distribution list. Managing Active Directory Groups is important because it maintains a clean, healthy, and secure Active Directory environment.
 
-### Marine Coders Website
-[Project Repository](https://github.com/marinecoders/marines.dev)
-
-### Suggest a Project
-  * Click the blue smiley face box in the middle right.
-  * Press "Give Feedback" Button
-  * Submit new project idea!
-
-<script src="https://sak.userreport.com/518be00889324d26a196/launcher.js" async id="userreport-launcher-script"></script>
+[Suggest a Project!](https://github.com/marinecoders/marines.dev/issues/new?assignees=&labels=project+suggestion&template=project-request.md&title=){ .md-button }
