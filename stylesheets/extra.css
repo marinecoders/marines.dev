@@ -1,0 +1,331 @@
+/* Overwriting Themes */
+:root {
+    --marine-coders-bg: #252a34;
+    --marine-coders-bg--dark: #1a1d24;
+    --marine-coders-bg--darkest: #13151b;
+    --marine-coders-bg--light: #dee4e7;
+    --marine-coders-red--light: #ecb7b7;
+    --marine-coders-red: #cf2929;
+
+    --md-text-font-family: "Public Sans Web,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol";
+}
+
+[data-md-color-scheme="marinecoders-light"] {
+    --md-primary-fg-color: var(--marine-coders-bg--dark);
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark: var(--marine-coders-red);
+    --md-typeset-a-color: var(--marine-coders-red);
+    --md-accent-fg-color: var(--marine-coders-red);
+    --md-default-bg-color: #dee4e7;
+
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;
+    --md-default-bg-color: var(--marine-coders-bg);
+    --md-primary-fg-color: var(--marine-coders-bg--dark);
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark: var(--marine-coders-red);
+    --md-typeset-a-color: var(--marine-coders-red);
+    --md-accent-fg-color: var(--marine-coders-red);
+    --md-accent-fg-color--transparent: hsla(var(--marine-coders-red), 0.1);
+
+}
+
+
+.md-banner {
+    background-color: var(--marine-coders-bg--dark);
+}
+
+.md-button {
+    color: var(--marine-coders-red) !important;
+}
+
+.md-button:is(:focus, :hover) {
+    background-color: var(--marine-coders-red);
+    border-color: var(--marine-coders-red);
+    color: #ffffff !important;
+}
+
+.md-button--primary {
+    background-color: var(--marine-coders-red) !important;
+    border-color: var(--marine-coders-red) !important;
+    color: #ffffff !important;
+}
+
+.md-button--primary:is(:focus, :hover) {
+    background-color: #e44040 !important;
+    border-color: #e44040 !important;
+    color: #ffffff !important;
+}
+
+.md-footer-meta {
+    background-color: var(--marine-coders-bg--dark);
+}
+
+@media only screen and (max-width: 600px) {
+    .md-header__topic {
+        display: grid;
+    }
+
+    .md-header__custom {
+        display: contents;
+    }
+
+    .md-header__title {
+        line-height: 1.65rem;
+    }
+
+    /* Custom Element */
+    .md-header__sub {
+        font-weight: 100;
+        line-height: 0px;
+        font-size: .65em;
+    }
+}
+
+.md-header__sub {
+    color: var(--md-footer-fg-color--light);
+}
+
+/* PyMdown Extensions Progress Bar CSS */
+
+.progress-label {
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    margin: 0 ! important;
+    line-height: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 1.2rem;
+    float: left;
+    background: repeating-linear-gradient(45deg,
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2) 10px,
+            rgba(255, 255, 255, 0.3) 10px,
+            rgba(255, 255, 255, 0.3) 20px) #2979ff;
+    border-radius: 2px;
+}
+
+.progress {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 1.2rem;
+
+    position: relative;
+}
+
+.progress-100plus .progress-bar {
+    background-color: #00c853;
+}
+
+.progress-80plus .progress-bar {
+    background-color: #64dd17;
+}
+
+.progress-60plus .progress-bar {
+    background-color: #fbc02d;
+}
+
+.progress-40plus .progress-bar {
+    background-color: #ff9100;
+}
+
+.progress-20plus .progress-bar {
+    background-color: #ff5252;
+}
+
+.progress-0plus .progress-bar {
+    background-color: #ff1744;
+}
+
+/* USWDS Banner */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-content-click {
+        display: grid;
+    }
+
+    .banner-header {
+        padding: 4px;
+        margin: 5px 0px 5px 0px;
+        display: grid !important;
+        padding-bottom: 5px;
+    }
+
+    .banner-header a {
+        padding: 0px;
+        padding-left: 1.5em;
+    }
+
+    .banner-header div {
+        padding: 0px;
+    }
+
+    .banner__inner {
+        width: 95%;
+    }
+
+    .banner-content__text {
+        font-size: .65rem;
+        margin-left: 5.2rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .banner-content-click {
+        display: flex;
+    }
+
+    .banner__inner {
+        width: 80%;
+    }
+
+    .banner-content__text {
+        font-size: .8rem;
+    }
+}
+
+.banner-icon {
+    margin-right: 5px;
+}
+
+.banner__inner {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: .75rem !important;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.banner__outer {
+    justify-content: center;
+    display: flex;
+    background-color: var(--marine-coders-bg--darkest);
+}
+
+.banner-header {
+    padding: 0px 16px;
+    display: flex;
+    color: white;
+}
+
+.banner-header a {
+    color: white;
+    text-decoration: underline;
+}
+
+.banner-header img {
+    object-fit: contain;
+}
+
+.banner-header>* {
+    padding: 5px;
+}
+
+.banner-content {
+    padding: 0em 1em 1em 1em;
+}
+
+.banner-content img {
+    width: 64px;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.banner-content__text {
+    font-family: Public Sans Web, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    color: white;
+}
+
+.banner-content__logo {
+    margin: 1rem;
+}
+
+.icon-lock {
+    color: transparent;
+    text-shadow: 0 0 0 white;
+}
+
+.icon-lock::selection {
+    text-shadow: 0 0 0 white;
+}
+
+/* Custom CSS */
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-margin {
+    margin: 0px !important;
+}
+
+/* Initial Body Fade In */
+body {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
