@@ -1,11 +1,17 @@
-# Opportunities
+---
+date: 2023-05-09
+categories:
+  - Announcements
+  - News
+authors:
+  - collin.chew
+links:
+  - blog/posts/marine-innovation-unit/MIU-Partnership-Rebranding.md
+---
 
-## Marine Coders Open Billets
+# MIU Marine Coders FY23 Part 2
 
-Join MIU Marine Coders (reserve opportunity only) and contribute to critical missions as a software developer, data architect, designer, developer advocate, or product manager!
-
-[MIU Marine Coders FY23 Application](https://miu.applytojob.com){ .md-button }
-{: .text-center}
+## Join MIU Marine Coders (reserve opportunity only) and contribute to critical missions as a software developer, data architect, or designer!
 
 #### The application now consists of two parts:
 
@@ -15,7 +21,7 @@ Join MIU Marine Coders (reserve opportunity only) and contribute to critical mis
 <p style="float: right" class="no-margin" >
 <img width="250px" height="338px" alt="Image title" data-cms-original-src="/assets/marinecoders.png#only-dark" src="/assets/Marine Innovation Unit 600x600.png#only-dark">
 </p>
-1. Apply at the link above and select *ILB-Software Data* for the "What is your third preference for Branch / role in the unit?" drop down
+1. Apply at the link above and select *ILB- software and data* for the "What is your preference for Branch / role in the unit?" drop down
 2. An email with supplemental documents
  (Note: the application is not complete and will not be considered without both parts)
 
