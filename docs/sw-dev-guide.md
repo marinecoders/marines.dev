@@ -1,16 +1,42 @@
-# h1 Heading
-## h2 Heading
-### h3 Heading
+<p style="color:#228B22">UNCLASSIFIED</p>
+
+# USMC Developer Guide
+
+This guide is intended to accelerate the understanding of domain specific USMC software development. This guide is intended to be vendor neutral to the best of our ability.
+
+## Available Repositories
+
+| Repository | Owner | Classification | Description |
+|:----------:|:-----:|:--------------:|:-----------:|
+| [Github Group - Marine Coders](https://github.com/marinecoders/)  | Marine Coders | Unclassified | Open source and unclassified projects  |
+| [web.git.mil](https://web.git.mil)  | DISA HaCC | Controlled Unclassified Information | General Purpose repository, available to all DoD  |
+
+## ![TAK](/assets/TAK-logo.svg) Tactical Assault Kit (TAK)
+
+TAK is the core of a suite of georeferenced imagery and communications tools that allow for scaled operational planning, data sharing, visualized elevation data, and target management.
+
+#### Concepts
+
+#### Guides
+
+#### Additional Resources
+
+
+
+<!-- ### h3 Heading
+
 #### h4 Heading
+
 ##### h5 Heading
+
 ###### h6 Heading
 
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+- :fontawesome-brands-html5: **HTML** for content and structure
+- :fontawesome-brands-js: **JavaScript** for interactivity
+- :fontawesome-brands-css3: **CSS** for text running out of boxes
+- :fontawesome-brands-internet-explorer: **Internet Explorer** ... huh?
 
 </div>
 
@@ -22,43 +48,41 @@ Enable typographer option to see result.
 
 test.. test... test..... test?..... test!....
 
-!!!!!! ???? ,,  -- ---
+!!!!!! ???? ,, -- ---
 
 "Smartypants, double quotes" and 'single quotes'
-
 
 ## Emphasis
 
 **This is bold text**
 
-__This is bold text__
+**This is bold text**
 
-*This is italic text*
+_This is italic text_
 
 _This is italic text_
 
 ~~Strikethrough~~
 
-
 ## Blockquotes
 
-
 > Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
+>
+> > ...by using additional greater-than signs right next to each other...
+> >
 > > > ...or with spaces between arrows.
-
 
 ## Lists
 
 Unordered
 
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
+- Create a list by starting a line with `+`, `-`, or `*`
+- Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
+    - Ac tristique libero volutpat at
+    * Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-+ Very easy!
+- Very easy!
 
 Ordered
 
@@ -66,9 +90,8 @@ Ordered
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
+4. You can use sequential numbers...
+5. ...or keep all the numbers as `1.`
 
 Start numbering with offset:
 
@@ -85,11 +108,9 @@ Start numbering with offset:
 
 [Subscribe to our newsletter](#){ .md-button .md-button--primary }
 
-
 `[Send :fontawesome-solid-paper-plane:](#){ .md-button }`
 
 [Send :fontawesome-solid-paper-plane:](#){ .md-button }
-
 
 ## Code
 
@@ -102,7 +123,6 @@ Indented code
     line 2 of code
     line 3 of code
 
-
 Block code "fences"
 
 ```
@@ -111,7 +131,7 @@ Sample text here...
 
 Syntax highlighting
 
-``` js
+```js
 var foo = function (bar) {
   return bar++;
 };
@@ -120,6 +140,7 @@ console.log(foo(5));
 ```
 
 ### Code Content Tabs
+
 === "C"
 
     ``` c
@@ -144,20 +165,19 @@ console.log(foo(5));
 
 ## Tables
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 Right aligned columns
 
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
+| Option |                                                               Description |
+| -----: | ------------------------------------------------------------------------: |
+|   data | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|    ext |                                      extension to be used for dest files. |
 
 ## Links
 
@@ -167,7 +187,6 @@ Right aligned columns
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
-
 ### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
 
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
@@ -176,11 +195,9 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
 
-
 ### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
 :fontawesome-regular-face-laugh-wink:
-
 
 ### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
@@ -200,7 +217,7 @@ Duplicated footnote reference[^second].
 
 ## Sequence Diagrams
 
-``` mermaid
+```mermaid
 sequenceDiagram
   Alice->>John: Hello John, how are you?
   loop Healthcheck
@@ -232,17 +249,17 @@ sequenceDiagram
 
 - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
 - [ ] Vestibulum convallis sit amet nisi a tincidunt
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
+  - [x] In hac habitasse platea dictumst
+  - [x] In scelerisque nibh non dolor mollis congue sed et metus
+  - [ ] Praesent sed risus massa
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
 ```markdown
 - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
 - [ ] Vestibulum convallis sit amet nisi a tincidunt
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
+  - [x] In hac habitasse platea dictumst
+  - [x] In scelerisque nibh non dolor mollis congue sed et metus
+  - [ ] Praesent sed risus massa
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 ```
 
@@ -254,4 +271,4 @@ sequenceDiagram
 [=45% "45%"]
 [=65% "65%"]
 [=85% "85%"]
-[=100% "100%"]
+[=100% "100%"] -->
