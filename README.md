@@ -39,9 +39,8 @@ Documenation theme / boilerplate is created using [https://github.com/mkdocs/mkd
 Prior to installation and repository setup ensure you have a version of Python 3.x installed and is correctly configured to the path.
 
 ```shell
-> git clone github.com/marinecoders/docs.git
-> cd docs
-> pip install -r requirments.txt
+> git clone https://github.com/marinecoders/marines.dev.git
+> pip install -r requirements.txt
 > mkdocs serve
     INFO     -  Building documentation...
     INFO     -  Cleaning site directory
@@ -49,6 +48,8 @@ Prior to installation and repository setup ensure you have a version of Python 3
     INFO     -  [09:19:58] Watching paths for changes: 'docs', 'mkdocs.yml'
     INFO     -  [09:19:58] Serving on http://127.0.0.1:8000/
 ```
+
+The mkdocs insiders is available inside our private repository, you will need to download and conduct a `pip install -e <folder>`
 
 ## Follow On Development Guides
 
