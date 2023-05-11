@@ -3,7 +3,7 @@ description: Who are Marine Coders?
 ---
 # Who are Marine Coders
 
-Marine Coders is a non-official organization comprised of Active Duty/Reserve Marines, Marine Veterans, and U.S. Citizens who want to help Marines through code.
+Marine Coders is a Marine Corps organization sponsored by MIU and DC I IC4 comprised of Active Duty/Reserve Marines, Marine Veterans, and U.S. Citizens who want to help Marines through code.
 
 ## Our Mission
 
