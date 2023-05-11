@@ -5,4 +5,4 @@ Understand that the Marine Coders (Marines.dev) use a public facing website. Do 
 
 ## Reporting a Vulnerability
 
-The Marine Coders is a community of practice, if you see something, say something. We wanna squash the bugs and vulnerabilities.
+The Marine Coders is a community of practice, if you see something, say something. We want to squash the bugs and vulnerabilities.
