@@ -19,7 +19,7 @@ hide:
 
     ---
 
-    Learn more about our projects.
+    Learn more about our open source projects.
 
     [:octicons-arrow-right-24:Learn about our Projects](/projects)
 
