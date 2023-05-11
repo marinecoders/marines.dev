@@ -114,7 +114,7 @@ extra:
       link: https://marines.dev/feed_rss_created.xml
       
 copyright: >
-  Copyright &copy; 2022 Marine Coders
+  Copyright &copy; 2023 Marine Coders
 
 nav:
   - Home: 'https://marines.dev'
@@ -125,14 +125,15 @@ nav:
   - Opportunities: /opportunities
   - Chat: /chat
   - About: /about
+  - MCSWF: 'https://www.hqmc.marines.mil/MCSWF/'
 
 banner:
-  title: Public Mirror Marine Coders Website
+  title: Marine Coders - Public Mirror
   dropdown:
     left: >
       <strong>Official websites use .mil</strong><br>
-      This is not an official site. A .mil website belongs to an official government organization
-      in the United States.
+      This is not our official site. A .mil website belongs to an official government organization
+      in the United States. Visit our official website at <a style="color:#00BFFF" href="https://marinecoders.dev.usmc.mil">https://marinecoders.dev.usmc.mil</a>
     right: >
       <strong>Secure .dev websites use HTTPS</strong><br>
       A lock (<span class="icon-lock">🔒</span>) or https:// means you've safely connected to the .dev website. Share
