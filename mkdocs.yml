@@ -46,6 +46,7 @@ theme:
     - search.share
     - search.suggest
     - announce.dismiss
+    - toc.integrate 
     
 extra_css:
   - stylesheets/extra.css
@@ -119,12 +120,18 @@ copyright: >
 nav:
   - Home: 'https://marines.dev'
   - Blog:
-    - blog/index.md 
-  - Learn: /learn
-  - Projects: /projects
-  - Opportunities: /opportunities
-  - Chat: /chat
-  - About: /about
+    - blog/index.md
+  - 'Guides':
+    - 'Index': guides/index.md
+    - 'Getting Started': guides/getting_started.md
+    - 'Identity & Access Management Guide': guides/iam.md
+    - 'TAK Development Guide': guides/tak_development.md
+    - 'API Guide': guides/apis.md
+  - Learn: learn.md
+  - Projects: projects.md
+  - Opportunities: opportunities.md
+  - Chat: chat.md
+  - About: about.md
   - MCSWF: 'https://www.hqmc.marines.mil/MCSWF/'
 
 banner:
