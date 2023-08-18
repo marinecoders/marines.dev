@@ -1,0 +1,37 @@
+<div class="banner__outer">
+    <div class="banner__inner">
+        <header class="banner-header">
+            <div><img class="banner-icon" height="11px" width="16px" src="/assets/us_flag_small.png" alt="U.S. flag">{{ config.banner.title }}</div>
+            <a href="#" onclick="toggleContent()" class="classification-header__link"><small>Here's how you
+                    know...</small></a>
+        </header>
+        <div class="banner-content" style="display: none;">
+            <div class="banner-content-click">
+                <div>
+                    <img class="banner-content__logo" src="/assets/icon-dot-gov.svg" role="img" alt="" align="left"
+                        aria-hidden="true">
+                    <div class="banner-content__text">
+                        <p>
+                            {{ config.banner.dropdown.left }}
+                        </p>
+                    </div>
+                </div>
+                <div style="align-items: center;">
+                    <img class="banner-content__logo" src="/assets/icon-https.svg" role="img" alt="" align="left"
+                        aria-hidden="true">
+                    <div class="banner-content__text">
+                        <p>
+                            {{ config.banner.dropdown.right }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function toggleContent() {
+        var x = document.getElementsByClassName("banner-content")[0];
+        (x.style.display === "none") ? x.style.display = "grid" : x.style.display = "none";
+    }
+</script>
