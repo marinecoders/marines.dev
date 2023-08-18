@@ -10,13 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.fork == false
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - run: pip install pillow cairosvg mkdocs-rss-plugin
       - run: git clone -b $mkdocs_material_tag https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders
       - run: pip install -e mkdocs-material-insiders
+      - name: Test Build
+        run: mkdocs build
       - run: mkdocs gh-deploy --force
 env:
   mkdocs_material_tag: 8.5.7-insiders-4.26.1
