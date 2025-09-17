@@ -4,10 +4,12 @@
 
 Join MIU Marine Coders (reserve opportunity only) and contribute to critical missions as a software developer, data architect, designer, developer advocate, or product manager!
 
-[MIU Marine Coders FY23 Application](https://miu.applytojob.com){ .md-button }
+MIU applications are accepted on a rolling basis. Check out the Join MIU tab on the official MIU page for the most up-to-date information on applications.
+
+[MIU Marine Coders FY25 Application](https://www.marforres.marines.mil/MIU/){ .md-button }
 {: .text-center}
 
-#### The application now consists of two parts:
+<!--#### The application now consists of two parts:
 
 <p style="float: right" class="no-margin" >
 <img width="250px" alt="Image title" data-cms-original-src="/assets/marinecoders_invert.png#only-light" src="/assets/Marine Innovation Unit.png#only-light">
@@ -25,4 +27,4 @@ Join MIU Marine Coders (reserve opportunity only) and contribute to critical mis
 - Board Results Notification: 30 June 2023
 - If selected, you will be expected to join MIU NLT 31 July 2023 (\*exceptions may be required)
 - If selected, there will be two opportunities for a virtual onboarding prior to attending August training session.
-- Attend in-person onboarding and training from 17-20 August 2023, including travel, at the MIU Home Training Center (HTC) in Newburgh, NY.
+- Attend in-person onboarding and training from 17-20 August 2023, including travel, at the MIU Home Training Center (HTC) in Newburgh, NY.-->

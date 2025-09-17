@@ -70,8 +70,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - footnotes
   - pymdownx.superfences:
       custom_fences:
@@ -83,18 +83,21 @@ markdown_extensions:
 
 plugins:
   - social:
-      cards_color:
-        fill: "#252a34" 
-        text: "#FFFFFF"
+      cards: false
+      cards_layout: default
+      cards_layout_options:
+        background_color: "#0b3d91"
+        color: "#ffffff"
   - blog:
       authors_file: .authors.yml
-      authors_in_excerpt: 2
-  - meta:
-      meta_file: '**/.meta.yml' 
+      # authors_in_excerpt: 2
+  # - meta:
+  #     meta_file: '**/.meta.yml' 
   - search
-  - tags:
-      tags_file: blog/tags.md
+  - tags
+      # tags_file: blog/tags.md
   - rss:
+      use_git: false
       match_path: blog/posts/.* 
       date_from_meta:
         as_creation: date
@@ -112,7 +115,19 @@ extra:
       link: https://www.linkedin.com/company/marine-coders
     - icon: fontawesome/solid/square-rss
       link: https://marines.dev/feed_rss_created.xml
-      
+  banner:
+    title: "Marine Coders - Public Mirror"
+    dropdown:
+      left: >
+        <strong>Official websites use .mil</strong><br>
+        This is not our official site. A .mil website belongs to an official
+        government organization in the United States. Visit our official website at
+        <a style="color:#00BFFF" href="https://marinecoders.dev.usmc.mil">https://marinecoders.dev.usmc.mil</a>
+      right: >
+        <strong>Secure .dev websites use HTTPS</strong><br>
+        A lock (<span class="icon-lock">🔒</span>) or https:// means you've safely
+        connected to the .dev website. Share sensitive information only on official,
+        secure websites.
 copyright: >
   Copyright &copy; 2023 Marine Coders
 
@@ -127,14 +142,3 @@ nav:
   - About: /about
   - MCSWF: 'https://www.hqmc.marines.mil/MCSWF/'
 
-banner:
-  title: Marine Coders - Public Mirror
-  dropdown:
-    left: >
-      <strong>Official websites use .mil</strong><br>
-      This is not our official site. A .mil website belongs to an official government organization
-      in the United States. Visit our official website at <a style="color:#00BFFF" href="https://marinecoders.dev.usmc.mil">https://marinecoders.dev.usmc.mil</a>
-    right: >
-      <strong>Secure .dev websites use HTTPS</strong><br>
-      A lock (<span class="icon-lock">🔒</span>) or https:// means you've safely connected to the .dev website. Share
-      sensitive information only on official, secure websites.
